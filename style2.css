@@ -8,6 +8,7 @@ h1{
     border-right: 1px black solid;
     width: 100px;
     padding: 30px; margin: 0px;
+    font-size: 15px;
 }
 #list {
   display: grid;
