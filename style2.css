@@ -1,0 +1,25 @@
+body { margin: 0px; }
+h1{
+  text-align: center;
+  border-bottom: 1px black solid;
+  padding: 20px; margin: 0px;
+}
+#list ol {
+    border-right: 1px black solid;
+    width: 100px;
+    padding: 30px; margin: 0px;
+}
+#list {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#list #article {
+  padding: 30px;
+}
+
+@media(max-width:800px) {
+  #list { display: block; }
+  #list ol { border-right: none; }
+  h1{ border-bottom: none; }
+}
